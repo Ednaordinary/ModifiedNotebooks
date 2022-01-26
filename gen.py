@@ -127,7 +127,7 @@ up_samples = diffusion_up.ddim_sample_loop(
 )[:batch_size]
 model_up.del_cache()
 
-# Show the output
+# Saves the output
 show_images(up_samples, True, prompt)
 
 
